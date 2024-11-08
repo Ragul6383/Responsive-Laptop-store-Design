@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+}
+#navbar1{
+    background-color: black;
+}
+#navlogo1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+}
+#navitems1 a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 5px 20px;
+}
+#navitems1 a:hover{
+    color: #a3a3a3;
+}
+body, html {
+    height: 100%;
+}
+#imgh{
+  height:288px;
+  border-radius: 15px;
+}
+#imgdv{
+  left: 55px;
+  border-radius: 15px;
+}
+#imgsv{
+  border-radius: 15px;
+}
+/* hero image  carousel section */
+#imgbg {
+    background-image:url("images/laptop-with-cup-coffee-cup-coffee-table_605423-113029.avif");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #herotxt{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #btn6{
+    padding: 10px 20px;
+  }
+
+  @media (max-width: 767px) {
+    .hero-text {
+        padding: 50px; /* Adjust padding for smaller screens */
+    }
+    #p1 {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+    #p2 {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+    #imgdv{
+      left: 45px;
+    }
+}
+
+
+  .service-32 .badge {
+    line-height: 15px;
+  }
+  
+  .service-32 .badge-info {
+    background: #188ef4;
+  }
+  .service-32 .my-3 {
+    font-size: 3rem;
+  }
+  /* product section */
+  .text-reset{
+    text-decoration: none;
+  }
+  .row .card{
+    border-radius: 5%;
+  }
+  #cardimg{
+    border-radius: 5% 5% 0 0;
+    object-position: center;
+    width: 100%;
+    max-height: 230px;
+    filter: blur(1.5px);
+  }
+  #cardimg:hover {
+     filter: blur(0px);
+     cursor: pointer;
+  }
+
+  footer{
+    background-color: #262626;
+  }
+  .list-unstyled mb-4 a{
+    text-decoration: none;
+  }
+  #btn4{
+    margin-left: 200px;
+  }
+  #footicons{
+    color: white;
+  }
+  #crdtext{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #prdtxts{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.contact-info .fa {
+  padding-right: 5px;
+}
+
+#contact .form-control {
+  border: none;
+  border-bottom: 2px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999999;
+}
+
+#contact input {
+  height: 55px;
+}
+
+#contact button#submit {
+  background: #2b2b2b;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 24px;
+}
+
+#contact button#submit:hover {
+  background: #7682cc;
+  color: #ffffff;
+}
+#txts{
+  text-decoration: none;
+  color: hsl(0, 0%, 44%);
+}
+#icn{
+  color:hsl(0, 0%, 44%) ;
+}
+
+
