@@ -35,3 +35,7 @@
 <p>
   Perfect for anyone looking to set up an online presence for their tech store or as a template for learning responsive web design with Bootstrap.
 </p>
+
+## Live Demo
+[View the live demo on Netlify](https://mangolaptops.netlify.app/)
+
